@@ -1,0 +1,19 @@
+[package]
+
+name = "mandelbrot"
+version = "0.0.1"
+authors = ["Zachary Bush <zach@zmbush.com>"]
+
+[[bin]]
+name = "mandelbrot"
+path = "src/main.rs"
+
+[dependencies.pistoncore-sdl2_window]
+git = "https://github.com/pistondevelopers/sdl2_window"
+
+[dependencies.pistoncore-event]
+git = "https://github.com/pistondevelopers/event"
+
+[dependencies.piston2d-opengl_graphics]
+git = "https://github.com/pistondevelopers/opengl_graphics"
+
